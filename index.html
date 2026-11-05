@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta name="theme-color" content="#09111d">
+
+  <title>しずくの洞窟</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="page">
+    <div class="game-container">
+      <canvas
+        id="game"
+        width="1200"
+        height="760"
+        aria-label="しずくの洞窟リズムゲーム"
+      >
+        このブラウザはゲーム画面に対応していません。
+      </canvas>
+    </div>
+
+    <p
+      id="status"
+      class="status"
+      role="status"
+      aria-live="polite"
+    ></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
